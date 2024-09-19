@@ -39,6 +39,7 @@ export default {
 
 <style lang="scss">
 @use 'assets/scss/main' as *;
+
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 </style>

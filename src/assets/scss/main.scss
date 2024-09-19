@@ -1,6 +1,13 @@
+@use 'partials/variables.scss' as *;
+@use 'partials/reset.scss' as *;
+@use 'partials/mixins.scss' as *;
+
+
 /* 
     GENERAL
 */
+
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
