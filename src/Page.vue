@@ -6,22 +6,24 @@
   3) Utilizzo del componente
 */
 // 1) Importazione del componente
-import AppHeader from './components/AppHeader.vue';
+import PageHeader from './components/Header/PageHeader.vue';
+import PageMain from './components/Main/PageMain.vue';
+import PageFooter from './components/Footer/PageFooter.vue';
 
 export default {
   data() {
     return { 
-      count: 0
+      
     }
   },
   // 2) Dichiarazione del componente
   components: {
-    AppHeader
+    PageHeader,
+    PageMain,
+    PageFooter
   },
   methods: {
-    incrementCount() {
-      this.count++;
-    }
+    
   }
 }
 </script>
@@ -29,13 +31,9 @@ export default {
 <template>
   <div>
     <!-- 3) Utilizzo del componente -->
-    <AppHeader />
-    
-    <main>
-      <button class="btn btn-primary" @click="incrementCount()">
-        {{ count }}
-      </button>
-    </main>
+    <PageHeader />
+    <PageMain />
+    <PageFooter />
   </div>
 </template>
 
