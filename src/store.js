@@ -7,6 +7,8 @@ export const store = reactive({
 
     // *** UTILITIES ***
 
+    // * BUTTONS *
+
     viewCourses: [
         {
             icon: '',
@@ -178,18 +180,49 @@ export const store = reactive({
     ],
 
     // *** MAIN ***
+
+    // * First-section *
     thousandsCourses: [
         {
             title: 'Thousands of courses for any type of student',
             text: "At EduPrime, it doesn't matter what domain you wish to pursue a career in. Here you can find a course that satisfies your needs within a click away and applies for a course in a matter of minutes. EduPrime is ranked as the most versatile university in the world, thanks to the number of courses it provides."
         }
     ],
+
+    // * Second-section *
     availableFaculties: [
         {
             title: 'Faculties available at EduPrime',
             text: "A single university with a load of courses, tailored to satisfy any student's needs."
         }
     ],
+
+    // * Faculty-boxes *
+
+    facultyBoxes: [
+        {
+            image: 'src/assets/edu/img/Gavel-v2.png',
+            title: 'Law Faculty'
+        },
+        {
+            image: 'src/assets/edu/img/Coins-tabs-v2.png',
+            title: 'Economy'
+        },
+        {
+            image: 'src/assets/edu/img/Medicine-tabs-v2.png',
+            title: 'Medicine'
+        },
+        {
+            image: 'src/assets/edu/img/Computer-tabs-v2.png',
+            title: 'Computer Science'
+        },
+        {
+            image: 'src/assets/edu/img/Palette-tabs-v2.png',
+            title: 'Graphic Design'
+        },
+    ],
+
+
     lawFaculty: [
         {
             title: 'Law Faculty',

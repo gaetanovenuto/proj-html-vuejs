@@ -40,3 +40,27 @@ main {
     margin: 0 15px;
     padding: 20px 15px;
 }
+
+.orange-button {
+    background-color: $backgroundColor;
+    padding: 20px 15px;
+    margin: 0 15px;
+}
+
+// FACULTY BOX IMAGES
+
+.single-box {
+    border: 1px solid rgba(160, 160, 160, 0.281);
+    cursor: pointer;
+}
+
+.faculty-image {
+    max-height: 100px;
+    opacity: .9;
+}
+
+  
+.orange-text {
+    color: $backgroundColor;
+    opacity: .9;
+}
