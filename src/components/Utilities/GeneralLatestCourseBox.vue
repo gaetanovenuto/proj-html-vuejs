@@ -63,11 +63,11 @@ export default {
       <h3 :class="titleClass">
         {{ title }}
       </h3>
-      <div>
-        <span>
+      <div class="py-2">
+        <span >
           <img src="../../assets/icons/user-regular.svg" :alt="teacher" :class="iconClass">
         </span>
-        <span :class="teacherClass">
+        <span :class="teacherClass" >
           Teacher: <strong> {{ teacher }} </strong>
         </span>
       </div>
@@ -92,16 +92,14 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../../assets/scss/partials/variables.scss' as *;
 @use '../../assets/scss/partials/utilities.scss' as *;
-
-//
 
 .box {
   width: calc((100% / 4) - 15px) !important;
   border-radius: 12px; 
-  padding: 50px 25px;
+  padding: 75px 25px;
   background: linear-gradient(145deg, #e6e6e6, #ffffff);
   box-shadow: 
     5px 5px 15px rgba(0, 0, 0, 0.1),  

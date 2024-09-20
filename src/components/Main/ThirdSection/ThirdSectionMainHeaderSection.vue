@@ -20,7 +20,7 @@ export default {
 <template>
   <section class="first-section">
     <div class="container">
-      <div class="row thousand-courses">
+      <div class="row exam-method">
         <div class="col-6 d-flex flex-column">
           <GeneralCard 
           v-for="(paragraph, index) in store.examinationMethod" 
@@ -28,7 +28,7 @@ export default {
           :title="paragraph.title"
           :text="paragraph.text"
           titleClass="font-size-48 text-align-start w-80 fw-700 py-4" 
-          textClass="fs-6 text-align-start fw-400 w-75"/>
+          textClass="fs-5 text-align-start fw-400 w-75"/>
           <GeneralButton
               v-for="(button, index) in store.discoverMethod" 
               :key="index"
@@ -40,7 +40,7 @@ export default {
               textClasses="text-white fw-600 font-size-18 px-2"/>
           
         </div>
-        <div class="col-6 thousand-courses-img">
+        <div class="col-6 exam-method-img">
           <img src="../../../assets/edu/img/Exam-Illustration.png" alt="">
         </div>
       </div>
@@ -56,7 +56,7 @@ export default {
 
   background-color: white;
 
-  .thousand-courses {
+  .exam-method {
 
     @include flexCentered;
     justify-content: center;
@@ -67,7 +67,7 @@ export default {
     background-position: 60px 70px;
 
 
-.thousand-courses-img {
+.exam-method-img {
 
   @include flexCentered;
 

@@ -25,9 +25,9 @@ export default {
           <GeneralCard 
           v-for="(paragraph, index) in store.thousandsCourses" 
           :key="index" 
-          :title="store.thousandsCourses[index].title"
-          :text="store.thousandsCourses[index].text"
-          titleClass="font-size-48 text-align-start opacity-8 w-100" 
+          :title="paragraph.title"
+          :text="paragraph.text"
+          titleClass="font-size-48 text-align-start opacity-8 w-100 fw-700" 
           textClass="fs-6 text-align-start fw-400 w-100"/>
           <GeneralButton
               v-for="(button, index) in store.browseCourses" 
@@ -69,16 +69,15 @@ export default {
     background-position: 60px 70px;
 
 
-.thousand-courses-img {
+    .thousand-courses-img {
 
-  @include flexCentered;
+      @include flexCentered;
 
-  img {
-    width: 95%;
+      img {
+        width: 95%;
+      }
+    }
   }
-}
-}
-
 }
   
 

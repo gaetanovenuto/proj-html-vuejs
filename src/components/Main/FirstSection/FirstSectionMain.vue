@@ -30,7 +30,7 @@ export default {
           :title="store.availableFaculties[index].title"
           :text="store.availableFaculties[index].text"
           generalClass="m-auto"
-          titleClass="font-size-48 text-align-start w-100 " 
+          titleClass="font-size-48 text-align-start w-100 fw-700" 
           textClass="fs-6 text-align-start fw-400 w-50 text-center mx-auto"/>
         </div>
         <div class="row facultyBoxes">

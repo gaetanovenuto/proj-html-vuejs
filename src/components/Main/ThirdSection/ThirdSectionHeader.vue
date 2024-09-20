@@ -23,7 +23,7 @@ export default {
   <div class="first-section">
     <div class="container">
       <div class="row">
-        <h1 class="text-start font-size-48 fw-600 opacity-9">
+        <h1 class="text-start font-size-60 fw-700 opacity-9">
           Latest Courses
         </h1>
       </div>

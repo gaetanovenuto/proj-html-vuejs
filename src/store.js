@@ -295,12 +295,39 @@ export const store = reactive({
             text: "EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our students. Every teacher from our university has an influence on how students are evaluated at his/her subject."
         }
     ],
+
+    // --- Footer ---
+
     variableFees: [
         {
             title: 'Variable fees for international students',
             text: "EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our students. Every teacher from our university has an influence on how students are evaluated at his/her subject."
         }
-    ]
+    ],
+
+    // * Footer *
+
+    latestBlog: [
+        {
+            image: 'https://eduprime.modeltheme.com/wp-content/uploads/2015/02/agreement-business-businessman-872957-1000x580.jpg',
+            title: 'Winning Your Business',
+            text: 'Never settle for less! You can have everything you want and need. Use the most powerful',
+            date: 'February 17, 2019',
+        },
+        {
+            image: 'https://eduprime.modeltheme.com/wp-content/uploads/2015/02/apps-cellphone-communication-340103-1000x580.jpg',
+            title: 'Selling Strategies',
+            text: 'Never settle for less! You can have everything you want and need. Use the most powerful',
+            date: 'February 16, 2019',
+        },
+        {
+            image: 'https://eduprime.modeltheme.com/wp-content/uploads/2015/02/bags-best-friends-daylight-1516440-1000x580.jpg',
+            title: 'Good Grades',
+            text: 'Never settle for less! You can have everything you want and need. Use the most powerful',
+            date: 'February 16, 2019',
+        },
+    ],
+
 
     // METHODS
 

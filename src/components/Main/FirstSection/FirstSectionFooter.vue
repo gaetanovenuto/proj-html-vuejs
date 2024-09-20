@@ -30,7 +30,7 @@ export default {
           :key="index" 
           :title="paragraph.title"
           :text="paragraph.text"
-          titleClass="font-size-44 text-align-start opacity-8 w-100" 
+          titleClass="font-size-44 text-align-start opacity-8 w-100 fw-700" 
           textClass="font-size-16 text-align-start fw-400 w-100 opacity-7 py-3"/>
           <GeneralButton
               v-for="(button, index) in store.readMore" 

@@ -23,9 +23,9 @@ export default {
 
 <template>
   <ThirdSectionHeader />
-  <ThirdSectionFooter />
   <ThirdSectionMainHeaderSection />
   <ThirdSectionMainFooterSection />
+  <ThirdSectionFooter />
 </template>
 
 <style lang="scss" scoped>

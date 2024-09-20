@@ -31,7 +31,7 @@ export default {
           :title="paragraph.title"
           :text="paragraph.text"
           titleClass="font-size-48 text-align-start w-80 fw-700 py-4" 
-          textClass="fs-6 text-align-start fw-400 w-75"/>
+          textClass="fs-5 text-align-start fw-400 w-75"/>
           <GeneralButton
               v-for="(button, index) in store.feesList" 
               :key="index"
