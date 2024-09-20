@@ -1,10 +1,120 @@
 import { reactive } from 'vue';
 
+
 export const store = reactive({
 
     // ************ DATA ************
 
+    // *** UTILITIES ***
 
+    viewCourses: [
+        {
+            icon: '',
+            text: 'View Courses'
+        }
+    ],
+    searchCourses: [
+        {
+            icon: 'src/assets/icons/search.svg',
+            text: 'Search Courses'
+        }
+    ],
+    applyUniversity: [
+        {
+            icon: 'src/assets/icons/person-fill-add.svg',
+            text: 'Apply for university'
+        }
+    ],
+    browseCourses: [
+        {
+            icon: '',
+            text: 'Browse through courses'
+        }
+    ],
+    readMore: [
+        {
+            icon: '',
+            text: 'Read More'
+        }
+    ],
+    plus: [
+        {
+            icon: 'src/assets/icons/plus.svg',
+            text: 'Find More'
+        }
+    ],
+    viewEvents: [
+        {
+            icon: '',
+            text: 'View All Events'
+        }
+    ],
+    viewLatestCourse: [
+        {
+            icon: 'src/assets/icons/eye-regular.svg',
+            text: 'View Course'
+        }
+    ],
+    discoverMethod: [
+        {
+            icon: '',
+            text: 'Discover the Method'
+        }
+    ],
+    feesList: [
+        {
+            icon: '',
+            text: 'List of Fees'
+        }
+    ],
+    paperPlane: [
+        {
+            icon: 'src/assets/icons/paper-plane-solid.svg',
+            text: ''
+        }
+    ],
+    angleLeft: [
+        {
+            icon: 'src/assets/icons/angle-left-solid.svg',
+            text: ''
+        }
+    ],
+    angleUp: [
+        {
+            icon: 'src/assets/icons/angle-up-solid.svg',
+            text: ''
+        }
+    ],
+    angleRight: [
+        {
+            icon: 'src/assets/icons/angle-right-solid.svg',
+            text: ''
+        }
+    ],
+    viewTeam: [
+        {
+            icon: '',
+            text: 'View All Team'
+        }
+    ],
+    facebook: [
+        {
+            icon: 'src/assets/icons/facebook-f-brands-solid.svg',
+            text: ''
+        }
+    ],
+    twitter: [
+        {
+            icon: 'src/assets/icons/twitter-brands-solid.svg',
+            text: ''
+        }
+    ],
+    instagram: [
+        {
+            icon: 'src/assets/icons/instagram-brands-solid.svg',
+            text: ''
+        }
+    ],
 
     // *** HEADER ***
 

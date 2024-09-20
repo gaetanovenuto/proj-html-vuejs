@@ -1,5 +1,6 @@
 <script>
 
+import GeneralButton from '../Utilities/GeneralButton.vue'
 import { store } from '../../store.js';
 
 export default {
@@ -7,6 +8,9 @@ export default {
     return {
       store
     }
+  },
+  components: {
+    GeneralButton
   }
 }
 </script>
@@ -14,10 +18,10 @@ export default {
 <template>
   <navbar>
     <div class="row justify-content-around navbar ">
-      <div class="col-5 edu-logo">
+      <div class="col-4 edu-logo">
         <img src="../../assets/edu/img/theme_eduprime_logo.png" alt="EduPrime">
       </div>
-      <div class="col-7 navigation-menu">
+      <div class="col-8 navigation-menu">
         <ul class="row d-flex">
           <li v-for="(link, index) in store.navbarLinks" :key="index" class="col-auto navigation-item">
             <div class="dropdown">
@@ -34,9 +38,15 @@ export default {
             </div>
           </li>
           <li class="col-auto navigation-item">
-            <button class="yellow-button">
-              <a href="#">View Courses</a>
-            </button>
+            <GeneralButton
+              v-for="(button, index) in store.viewCourses" 
+              :key="index"
+              :icon="button.icon"
+              :text="button.text"
+              buttonClasses="yellow-button"
+              linkClasses="text-decoration-none"
+              iconClasses=""
+              textClasses="text-white fw-600 font-size-18 px-2"/>
           </li>
         </ul>
       </div>
@@ -48,8 +58,10 @@ export default {
 @use '../../assets/scss/partials/variables.scss' as *;
 
 .navbar {
-  padding: 40px 50px;
+  padding: 40px 0px;
+  margin: 0;
   .edu-logo {
+    padding-left: 50px;
     
     img {
       max-height: 60px;

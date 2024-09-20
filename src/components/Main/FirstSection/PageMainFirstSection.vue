@@ -21,5 +21,7 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../../assets/scss/partials/variables.scss' as *;
-
+  .first-section {
+    background-color: white;
+  }
 </style>
