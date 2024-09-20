@@ -70,6 +70,9 @@ export default {
 
 
   .navigation-menu { // Tutti i figli di ".navbar"
+
+    display: flex;
+    justify-content: flex-end;
     
     > ul { // Solo i figli unici di ".navigation-menu"
       @include flexCentered;
