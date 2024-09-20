@@ -29,7 +29,8 @@ export default {
           :key="index" 
           :title="store.availableFaculties[index].title"
           :text="store.availableFaculties[index].text"
-          titleClass="font-size-48 text-align-start w-100" 
+          generalClass="m-auto"
+          titleClass="font-size-48 text-align-start w-100 " 
           textClass="fs-6 text-align-start fw-400 w-50 text-center mx-auto"/>
         </div>
         <div class="row facultyBoxes">
@@ -65,6 +66,8 @@ export default {
         justify-content: center;
         cursor: pointer;
         }
+
+        
     }
 }
 

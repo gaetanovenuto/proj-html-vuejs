@@ -20,7 +20,7 @@ export default {
 <template>
   <section class="third-section">
     <div class="container">
-      <div class="row thousand-courses">
+      <div class="row law-faculty">
         <div class="col-6 law-faculty-img d-flex justify-content-center">
             <img src="../../../assets/edu/img/Gavel-Illustration-e1556884768193.png" alt="Law Faculty" class="w-65">
         </div>
@@ -28,8 +28,8 @@ export default {
           <GeneralCard 
           v-for="(paragraph, index) in store.lawFaculty" 
           :key="index" 
-          :title="store.lawFaculty[index].title"
-          :text="store.lawFaculty[index].text"
+          :title="paragraph.title"
+          :text="paragraph.text"
           titleClass="font-size-44 text-align-start opacity-8 w-100" 
           textClass="font-size-16 text-align-start fw-400 w-100 opacity-7 py-3"/>
           <GeneralButton
@@ -53,8 +53,13 @@ export default {
 @use '../../../assets/scss/partials/utilities.scss' as *;
 
 .third-section {
+
+  padding-bottom: 300px;
+  background-image: url(../../../assets/edu/svg/svg-0.svg);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
   
-  .thousand-courses {
+  .law-faculty {
         @include flexCentered;
         justify-content: center;
         padding: 50px;

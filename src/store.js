@@ -39,7 +39,7 @@ export const store = reactive({
             text: 'Read More'
         }
     ],
-    plus: [
+    findMore: [
         {
             icon: 'src/assets/icons/plus.svg',
             text: 'Find More'

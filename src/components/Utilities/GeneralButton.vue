@@ -30,6 +30,10 @@ export default {
       type: String,
       default: ''
     },
+    imgClasses: {
+      type: String,
+      default: ''
+    },
     linkClasses: {
       type: String,
       default: ''
@@ -42,7 +46,7 @@ export default {
         <button :class="buttonClasses" class="general-button">
           <a href="#" :class="linkClasses" class="text-decoration-none">
             <span v-if="icon" :class="iconClasses">
-              <img :src="icon" :alt="text">
+              <img :src="icon" :alt="text" :class="imgClasses">
             </span>
             <span v-if="text" :class="textClasses" >
               {{ text }}

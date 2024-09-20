@@ -27,7 +27,7 @@ export default {
       :key="index" 
       :title="paragraph.title"
       :text="paragraph.text"
-      generalClass="w-50 text-white" 
+      generalClass="w-50 text-white m-auto" 
       textClass="m-auto"/>
     <div class="row w-50 m-auto myButtons">
       <GeneralButton

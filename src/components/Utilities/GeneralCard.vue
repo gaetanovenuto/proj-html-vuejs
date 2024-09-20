@@ -34,7 +34,7 @@ export default {
 </script>
 
 <template>
-  <div class="general-card text-center m-auto py-5" :class="generalClass">
+  <div class="general-card text-center py-5" :class="generalClass">
       <h1 class="general-title" :class="titleClass">
         {{ title }}
       </h1>
@@ -48,16 +48,6 @@ export default {
 @use '../../assets/scss/partials/variables.scss' as *;
 @use '../../assets/scss/partials/utilities.scss' as *;
 
-.general-title {
-    font-size: 68px;
-    font-weight: 600;
-  }
-
-  .general-text {
-    padding-top: 35px;
-    width: 80%;
-    font-size: 24px;
-  }
 
 </style>
 
@@ -66,5 +56,6 @@ export default {
       :key="index" 
       :title="paragraph.title"
       :text="paragraph.text"
-      generalClass="" 
+      generalClass=""
+      titleClass="" 
       textClass=""/> -->
