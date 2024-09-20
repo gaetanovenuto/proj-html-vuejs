@@ -2,6 +2,7 @@
 
 import PageMainFirstSection from './FirstSection/PageMainFirstSection.vue';
 import PageMainSecondSection from './SecondSection/PageMainSecondSection.vue';
+import PageMainThirdSection from './ThirdSection/PageMainThirdSection.vue';
 import { store } from '../../store.js';
 
 export default {
@@ -12,7 +13,8 @@ export default {
   },
   components: {
     PageMainFirstSection,
-    PageMainSecondSection
+    PageMainSecondSection,
+    PageMainThirdSection
   }
 }
 </script>
@@ -21,6 +23,7 @@ export default {
   <Main>
     <PageMainFirstSection />
     <PageMainSecondSection />
+    <PageMainThirdSection />
   </Main>
 </template>
 

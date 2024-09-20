@@ -59,13 +59,13 @@ export default {
 @use '../../../assets/scss/partials/utilities.scss' as *;
 
     .first-section {
-        padding-top: 200px;
+        padding-top: 100px;
 
         background-color: $backgroundColor;
         background-image: url(../../../assets/edu/img/Clock-and-Bell.png);
         background-repeat: no-repeat;
         background-position-x: center;
-        background-position-y: 15%;
+        background-position-y: 5%;
         background-size: 75px;
 
         .uneven-paragraphs {

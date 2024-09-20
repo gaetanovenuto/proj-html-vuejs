@@ -118,7 +118,7 @@ export const store = reactive({
         }
     ],
 
-    // *** HEADER ***
+    // ******** HEADER ********
 
     // * NAVBAR *
     navbarLinks: [
@@ -179,9 +179,11 @@ export const store = reactive({
         }
     ],
 
-    // *** MAIN ***
+    // ******** MAIN ********
 
-    // * First-section *
+    // **** FIRST SECTION ***
+
+    // * Header *
     thousandsCourses: [
         {
             title: 'Thousands of courses for any type of student',
@@ -189,7 +191,7 @@ export const store = reactive({
         }
     ],
 
-    // * Second-section *
+    // * Main *
     availableFaculties: [
         {
             title: 'Faculties available at EduPrime',
@@ -197,7 +199,7 @@ export const store = reactive({
         }
     ],
 
-    // * Faculty-boxes *
+    // --- Faculty-boxes ---
 
     facultyBoxes: [
         {
@@ -222,6 +224,7 @@ export const store = reactive({
         },
     ],
 
+    // * Footer *
 
     lawFaculty: [
         {
@@ -229,6 +232,9 @@ export const store = reactive({
             text: "Learning from world-leading academics and practitioners, you'll not only receive an outstanding grounding in the theory of law, but you will be able to understand how those principles are applied in practice through a range of student-led activities and competitions."
         }
     ],
+
+    // **** SECOND SECTION ***
+
     universityYear: [
         {
             title: 'Orientation',
@@ -248,7 +254,36 @@ export const store = reactive({
         }
     ],
 
-    
+    // **** THIRD SECTION ***
+
+    // * Header *
+
+    latestCourses: [
+        {
+            image: 'src/assets/edu/img/Decisions-icon.png',
+            title: 'Make Better Decisions',
+            teacher: 'James Colins',
+            price: '$21.00',
+        },
+        {
+            image: 'src/assets/edu/img/Speaker-icon.png',
+            title: 'How to be a speaker',
+            teacher: 'James Colins',
+            price: '$Free',
+        },
+        {
+            image: 'src/assets/edu/img/Network-icon.png',
+            title: 'Network Introductions',
+            teacher: 'James Colins',
+            price: '$Free',
+        },
+        {
+            image: 'src/assets/edu/img/Brand-icon.png',
+            title: 'Brand Management',
+            teacher: 'James Colins',
+            price: '$Free',
+        },
+    ]
 
     // METHODS
 

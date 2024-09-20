@@ -27,8 +27,9 @@ export default {
       :key="index" 
       :title="paragraph.title"
       :text="paragraph.text"
-      generalClass="w-50 text-white m-auto" 
-      textClass="m-auto"/>
+      generalClass="w-50 text-white m-auto"
+      titleClass="font-size-60 fw-800" 
+      textClass="m-auto w-75 font-size-22 py-3"/>
     <div class="row w-50 m-auto myButtons">
       <GeneralButton
         v-for="(button, index) in store.searchCourses" 
