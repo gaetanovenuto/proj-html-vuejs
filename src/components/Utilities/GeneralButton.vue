@@ -85,7 +85,6 @@ border: 2px solid white;
 
 .general-button {
   @include roundedButton;
-
 }
 
 </style>
