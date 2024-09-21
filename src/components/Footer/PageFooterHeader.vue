@@ -23,8 +23,8 @@ export default {
             </h1>
         </div>
         <div class="col-auto">
-            <div class="position-relative">
-            <input type="email" class="newsletter-email" placeholder="Email address..."> 
+            <form class="position-relative">
+                <input type="email" class="newsletter-email" placeholder="Email address..."> 
                 <GeneralButton
                     v-for="(button, index) in store.paperPlane" 
                     :key="index"
@@ -34,8 +34,8 @@ export default {
                     linkClasses=""
                     iconClasses=""
                     textClasses=""
-                    imgClasses=""/>
-            </div>
+                    imgClasses="w-75"/>
+            </form>
             
         </div>
     </div>
@@ -47,12 +47,14 @@ export default {
 
 .subscribe-newsletter {
     @include flexCentered;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    justify-content: space-evenly;
+    justify-content: center;
+    background-color: $backgroundColor;
+
     h1 {
         padding: 75px 0;
-
+        margin: 0 75px;
     }
 
     .newsletter-email {

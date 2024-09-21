@@ -11,11 +11,7 @@ import PageMain from './components/Main/PageMain.vue';
 import PageFooter from './components/Footer/PageFooter.vue';
 
 export default {
-  data() {
-    return { 
-      
-    }
-  },
+  
   // 2) Dichiarazione del componente
   components: {
     PageHeader,

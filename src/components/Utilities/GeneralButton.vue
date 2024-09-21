@@ -48,7 +48,7 @@ export default {
             <span v-if="icon" :class="iconClasses">
               <img :src="icon" :alt="text" :class="imgClasses">
             </span>
-            <span v-if="text" :class="textClasses" >
+            <span v-if="text" :class="textClasses">
               {{ text }}
             </span>
           </a>

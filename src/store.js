@@ -328,6 +328,126 @@ export const store = reactive({
         },
     ],
 
+    // ******** FOOTER ********
+
+    // ***** MAIN ******
+
+    // *** HEADER ***
+    management: [
+        {
+            title: 'Management',
+            text: "A team of expert teachers that are leading our university! Meet our staff and become a student at EduPrime this year!"
+        }
+    ],
+
+    managementTeam: [
+        {
+            image: 'https://eduprime.modeltheme.com/wp-content/uploads/2019/04/member-mentors-5-500x500.jpg',
+            name: 'Bruno Dias',
+            role: 'Assistant Manager',
+        },
+        {
+            image: 'https://eduprime.modeltheme.com/wp-content/uploads/2019/04/member-mentors-2-500x500.jpg',
+            name: 'Laura Zola',
+            role: 'Assistant Manager',
+        },
+        {
+            image: 'https://eduprime.modeltheme.com/wp-content/uploads/2019/04/member-mentors-3-500x500.jpg',
+            name: 'Thomas Moriz',
+            role: 'Regional Manager',
+        },
+        {
+            image: 'https://eduprime.modeltheme.com/wp-content/uploads/2019/04/member-mentors-4-500x500.jpg',
+            name: 'Emma Ava',
+            role: 'General Director',
+        },
+        {
+            image: 'https://eduprime.modeltheme.com/wp-content/uploads/2019/04/member-mentors-1-500x500.jpg',
+            name: 'Sophia Doe',
+            role: 'Assistant Manager',
+        },
+    ],
+
+    // *** MAIN ***
+
+    partners: [
+        {
+            title: 'Partners',
+            text: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy."
+        }
+    ],
+    partnersLogos: [
+        {
+            image: 'src/assets/edu/img/partner-2.png',
+            title: 'Medals'
+        },
+        {
+            image: 'src/assets/edu/img/partner-3.png',
+            title: 'Lamp'
+        },
+        {
+            image: 'src/assets/edu/img/partner-4.png',
+            title: 'Books'
+        },
+        {
+            image: 'src/assets/edu/img/partner-5.png',
+            title: 'School Building'
+        },
+        {
+            image: 'src/assets/edu/img/partner-6.png',
+            title: 'Handmade'
+        },
+        {
+            image: 'src/assets/edu/img/partner-8.png',
+            title: 'Trophy'
+        },
+        {
+            image: 'src/assets/edu/img/partner-1.png',
+            title: 'Paperplane'
+        },
+        {
+            image: 'src/assets/edu/img/partner-7.png',
+            title: 'ABC Communication'
+        },
+    ],
+
+    // *** FOOTER ***
+
+    studentsThoughts: [
+        {
+            facultyImage: 'src/assets/edu/img/Computer-Science.png',
+            facultyName: 'Faculty of computer science',
+            text: '“I can’t thank EduPrime enough for what it has done for me. I am now a successful doctor at one of the best clinics in the world.”',
+            studentImage: 'https://eduprime.modeltheme.com/wp-content/uploads/2019/04/testimonial-2-student-1.png',
+            studentName: 'Mask Stevens',
+            studentPeriod: 'Student (2012 - 2016)'
+        },
+        {
+            facultyImage: 'src/assets/edu/img/Medicine.png',
+            facultyName: 'Faculty of medicine',
+            text: '“The most beautiful experience a student can have is attending EduPrime – the best university in the world. I strongly encourage everyone to apply.”',
+            studentImage: 'https://eduprime.modeltheme.com/wp-content/uploads/2019/04/testimonial-1-student-1.png',
+            studentName: 'Andrew Jackson',
+            studentPeriod: 'Student (2015 - 2018)'
+        },
+        {
+            facultyImage: 'src/assets/edu/img/Computer-Science.png',
+            facultyName: 'Faculty of computer science',
+            text: '“I can’t thank EduPrime enough for what it has done for me. I am now a successful doctor at one of the best clinics in the world.”',
+            studentImage: 'https://eduprime.modeltheme.com/wp-content/uploads/2019/04/testimonial-2-student-1.png',
+            studentName: 'Eduard Lopez',
+            studentPeriod: 'Student (2010 - 2014)'
+        },
+        {
+            facultyImage: 'src/assets/edu/img/Medicine.png',
+            facultyName: 'Faculty of medicine',
+            text: '“I can’t thank EduPrime enough for what it has done for me. I am now a successful doctor at one of the best clinics in the world.”',
+            studentImage: 'https://eduprime.modeltheme.com/wp-content/uploads/2019/04/testimonial-1-student-1.png',
+            studentName: 'Will Smith',
+            studentPeriod: 'Student (2005 - 2009)'
+        },
+    ]
+
 
     // METHODS
 

@@ -6,7 +6,8 @@ import { store } from '../../store.js';
 export default {
   data() {
     return {
-      store
+      store,
+      
     }
   },
   components: {
@@ -43,10 +44,10 @@ export default {
               :key="index"
               :icon="button.icon"
               :text="button.text"
-              buttonClasses="yellow-button"
+              buttonClasses="yellow-button px-4 text-uppercase"
               linkClasses="text-decoration-none"
               iconClasses=""
-              textClasses="text-white fw-600 font-size-18 px-2"/>
+              textClasses="fw-600 font-size-18 px-2"/>
           </li>
         </ul>
       </div>
@@ -69,18 +70,18 @@ export default {
   }
 
 
-  .navigation-menu { // Tutti i figli di ".navbar"
+  .navigation-menu {
 
     display: flex;
     justify-content: flex-end;
     
-    > ul { // Solo i figli unici di ".navigation-menu"
+    > ul {
       @include flexCentered;
       padding: 0;
       
       list-style: none;
 
-      .navigation-item { // Tutti i figli di "ul"
+      .navigation-item { 
           
           margin: 0;
           text-align: center;
@@ -95,11 +96,11 @@ export default {
             }    
           }
     
-          > a { // Solo i figli unici di ".navigation-item"
+          > a {
             @include navbarLinkStyle;
           }
 
-          .dropdown { // Tutti i figli di ".navigation-item"
+          .dropdown {
 
             &:active {
               border: none;
@@ -110,7 +111,7 @@ export default {
               color: $buttonColor;
             }
             
-            button { // Tutti i figli di ".dropdown"
+            button {
               @include navbarLinkStyle;
             }
 
@@ -129,16 +130,6 @@ export default {
               }
             }
 
-          }
-
-          .yellow-button {
-            background-color: $buttonColor;
-            @include roundedButton;
-
-            a {
-              @include navbarLinkStyle;
-              text-transform: uppercase;
-            }
           }
 
           @media (min-width: 576px) {       // Se lo schermo è grande almeno 576px, quando si hovera il pulsante ".dropdown" si aprirà ".dropdown-menu",
