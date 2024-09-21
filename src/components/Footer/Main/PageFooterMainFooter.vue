@@ -7,7 +7,7 @@ export default {
     return {
       store,
       actualIndex: 0,
-      backgroundColor: '#f0f0f0'
+      backgroundColor: '#f0f0f0',
     }
   },
   components: {
@@ -112,6 +112,8 @@ export default {
       background-color: $backgroundColor;
     }
   }
+
+  
 }
 
 </style>

@@ -70,10 +70,39 @@ main {
     color: white;
 }
 
-.email-button {
+.email-button, .search-button {
     position: absolute;
     top: -2px;
     right: -20px;
+}
+
+.social-button {
+    background: transparent;
+    border: 2px solid $buttonColor;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    transition: background-color .3s ease-in-out;
+
+    &:hover {
+        background-color: $buttonColor;
+    }
+}
+
+.logo-button {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: auto;
+    height: 15px;
+    transition: background-color .3s ease-in-out;
+    text-transform: uppercase;
+    font-size: 12px;
+
+    &:hover {
+        background-color: $buttonColor;
+    }
 }
 // FACULTY BOX IMAGES
 
@@ -90,4 +119,8 @@ main {
 .orange-text {
     color: $backgroundColor !important;
     opacity: .9;
+}
+
+.yellow-text {
+    color: $buttonColor !important;
 }

@@ -21,6 +21,12 @@ export const store = reactive({
             text: 'Search Courses'
         }
     ],
+    searchText: [
+        {
+            icon: 'src/assets/icons/search.svg',
+            text: ''
+        }
+    ],
     applyUniversity: [
         {
             icon: 'src/assets/icons/person-fill-add.svg',
@@ -446,9 +452,34 @@ export const store = reactive({
             studentName: 'Will Smith',
             studentPeriod: 'Student (2005 - 2009)'
         },
+    ],
+
+    // ***** FOOTER ******
+
+    getEduPrime: [
+        'Request a Website',
+        'Browse Themes',
+        'Payment Options',
+        'Support System',
+        'Checkout',
+        'Purchase Theme'
+    ],
+    networking: [
+        'Purchase Theme',
+        'Our Benefits',
+        'Our Team',
+        'Our Services',
+        'Other products',
+        'My account'
+    ],
+    categories: [
+        'Economy',
+        'Design',
+        'Coaching',
+        'Business',
+        'Medicine',
+        'Law',
+        'Fitness'
     ]
-
-
-    // METHODS
 
 });

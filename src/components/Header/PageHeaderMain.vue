@@ -33,22 +33,22 @@ export default {
     <div class="row w-50 m-auto myButtons">
       <GeneralButton
         v-for="(button, index) in store.searchCourses" 
-        :key="index"
-        :icon="button.icon"
-        :text="button.text"
-        buttonClasses="yellow-button w-25"
-        linkClasses="text-decoration-none"
-        iconClasses=""
-        textClasses="text-white fw-600 font-size-18 px-4"/>
+          :key="index"
+          :icon="button.icon"
+          :text="button.text"
+          buttonClasses="yellow-button w-25"
+          linkClasses="text-decoration-none"
+          iconClasses=""
+          textClasses="text-white fw-600 font-size-18 px-4"/>
         <GeneralButton
-        v-for="(button, index) in store.applyUniversity" 
-        :key="index"
-        :icon="button.icon"
-        :text="button.text"
-        buttonClasses="white-button w-25"
-        linkClasses="text-decoration-none"
-        iconClasses="change-color"
-        textClasses="text-white fw-600 font-size-18 px-2"/>
+          v-for="(button, index) in store.applyUniversity" 
+          :key="index"
+          :icon="button.icon"
+          :text="button.text"
+          buttonClasses="white-button w-25"
+          linkClasses="text-decoration-none"
+          iconClasses="change-color"
+          textClasses="text-white fw-600 font-size-18 px-2"/>
     </div>
       
   </section>
