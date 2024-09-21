@@ -47,7 +47,7 @@ export default {
               buttonClasses="yellow-button px-4 text-uppercase"
               linkClasses="text-decoration-none"
               iconClasses=""
-              textClasses="fw-600 font-size-18 px-2"/>
+              textClasses="text-white fw-600 font-size-18 px-2"/>
           </li>
         </ul>
       </div>
